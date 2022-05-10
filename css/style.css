@@ -37,9 +37,9 @@ body {
     margin: 30px auto;
     background-color: white;
     border: none;
-    padding: 10px 50px;
+    padding: 10px 55px;
     width: 75%;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 #add-task {
@@ -57,3 +57,10 @@ body {
     border-radius: 5px;
     padding: 5px;
 }   
+
+/* contenitore grande */
+
+.secondo {
+     margin-top: none;
+}
+
