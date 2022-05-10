@@ -34,11 +34,12 @@ body {
     background-color:rgba(217, 215, 214, 0.469);
 }
 
+/* primo contenitore */
 .contenitore {
     margin: 3px auto;
     background-color: white;
     border: none;
-    padding: 10px 55px;
+    padding: 15px 55px;
     width: 75%;
     border-radius: 4px;
 }
@@ -67,5 +68,55 @@ body {
 
 li {
     list-style: none;
-    
+}
+
+#lista-prima {
+    list-style: none;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+#lista-seconda {
+    list-style: none;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+#lista-terza {
+    list-style: none;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+/* etichette label*/
+
+.etichetta {
+    font-size: 10px;
+    border-radius: 8px;
+    color: white;
+    padding: 4px;
+}
+
+.editorial {
+    background-color: skyblue;
+}
+
+.q-one {
+    background-color: blueviolet;
+}
+
+.recruiting {
+    background-color:lightseagreen;
+}
+
+.mobile {
+    background-color:;
+}
+
+.website {
+    background-color: mediumvioletred;
+}
+
+.sales {
+    background-color: olivedrab;
 }
