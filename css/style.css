@@ -13,6 +13,7 @@
 header{
     height: 70px;
     padding: 1.5% 1.5%;
+    margin-bottom: 40px;;
     background-color: white;
 }
 
@@ -34,7 +35,7 @@ body {
 }
 
 .contenitore {
-    margin: 30px auto;
+    margin: 3px auto;
     background-color: white;
     border: none;
     padding: 10px 55px;
@@ -61,6 +62,10 @@ body {
 /* contenitore grande */
 
 .secondo {
-     margin-top: none;
+     padding: 15px 70px;
 }
 
+li {
+    list-style: none;
+    
+}
