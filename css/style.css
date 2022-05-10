@@ -32,3 +32,28 @@ img {
 body {
     background-color:rgba(217, 215, 214, 0.469);
 }
+
+.contenitore {
+    margin: 30px auto;
+    background-color: white;
+    border: none;
+    padding: 10px 50px;
+    width: 75%;
+    border-radius: 2px;
+}
+
+#add-task {
+    color: white;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}   
+
+#add-selection {
+    color: lightgrey;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+}   
