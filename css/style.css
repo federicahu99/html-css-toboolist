@@ -11,9 +11,9 @@
 /* header */
 
 header{
-    height: 70px;
+    height: 80px;;
     padding: 1.5% 1.5%;
-    margin-bottom: 40px;;
+    margin-bottom: 45px;
     background-color: white;
 }
 
@@ -21,6 +21,7 @@ header{
 h1 {
     display: inline;
     vertical-align: middle;
+    font-weight: 700;
 }
 
 
@@ -94,29 +95,30 @@ li {
     font-size: 10px;
     border-radius: 8px;
     color: white;
-    padding: 4px;
+    padding: 6px;
 }
 
 .editorial {
-    background-color: skyblue;
+    background-color:rgba(50, 152, 255, 0.972);
 }
 
 .q-one {
-    background-color: blueviolet;
+    background-color:rgba(159, 120, 236, 0.963);
 }
 
 .recruiting {
-    background-color:lightseagreen;
+    background-color:rgba(81, 177, 33, 0.98);
 }
 
 .mobile {
-    background-color:;
+    background-color: rgba(255, 166, 0, 0.954);
 }
 
 .website {
-    background-color: mediumvioletred;
+    background-color: rgba(226, 27, 153, 0.998);
 }
 
 .sales {
-    background-color: olivedrab;
+    background-color: rgba(137, 189, 47, 0.873);
 }
+
