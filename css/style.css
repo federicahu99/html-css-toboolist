@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}
+} 
 
 
 /* header */
@@ -14,8 +14,8 @@ header{
     height: 80px;;
     padding: 1.5% 1.5%;
     margin-bottom: 45px;
-    background-color: white;
-}
+    background-color: rgba(255, 255, 255, 0.961);
+} 
 
 
 h1 {
@@ -33,12 +33,13 @@ img {
 
 body {
     background-color:rgba(217, 215, 214, 0.469);
-}
+} 
+
 
 /* primo contenitore */
 .contenitore {
     margin: 3px auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.98);
     border: none;
     padding: 15px 55px;
     width: 75%;
@@ -46,22 +47,45 @@ body {
 }
 
 #add-task {
-    color: white;
-    background-color: deepskyblue;
+    color: rgba(255, 255, 255, 0.953);
+    background-color: rgba(0, 191, 255, 0.994);
     border: none;
     border-radius: 5px;
     padding: 5px;
+    margin-left: 20px;
 }   
 
 #add-selection {
-    color: lightgrey;
-    background-color: white;
-    border: 1px solid lightgrey;
+    color: rgba(211, 211, 211, 0.985);
+    background-color: rgba(255, 255, 255, 0.977);
+    border: 1px solid rgba(211, 211, 211, 0.995);
     border-radius: 5px;
     padding: 5px;
 }   
 
 /* contenitore grande */
+
+.checkbox {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: green;
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.done { 
+    border-color: rgba(81, 177, 33, 0.98);
+}
+
+.undone {
+    color: red;
+    border-color: rgb (255,0,0, 0.98);
+}
 
 .secondo {
      padding: 15px 70px;
@@ -94,7 +118,7 @@ li {
 .etichetta {
     font-size: 10px;
     border-radius: 8px;
-    color: white;
+    color: rgba(255, 255, 255, 0.985);
     padding: 6px;
 }
 
